@@ -4,7 +4,7 @@ function Home () {
     return (
         <div className="vh-100">
             <h1 className="text-center">BLOG</h1>
-            <h2 className="text-center">LA COMIDA MAS SOFICTICADA</h2>
+            <h2 className="text-center">LA COMIDA MAS SOFISTICADA</h2>
 <p>1. Caviar Almas. Hay distintos tipos de caviar, pero este es el más caro de todos los que existen en la tierra. Es el caviar Almas que, en ruso, significa “diamante”. Proviene del pez esturión Beluga albino del Mar Caspio, y sus huevas se distinguen por tener un color sorprendentemente claro. Hasta su packaging es asombroso: se vende en latas de oro de 24 kilates. Se consigue en Londres, Inglaterra, y su precio ronda entre los 16 mil y los 25 mil dólares americanos por kilo.</p>
 <p>2. Hongos Matsutake. De origen japonés, es un hongo que crece al pie de los pinos y se alimenta de materiales del piso forestal y de las hojas que caen. Son difíciles de cosechar y se producen menos de mil toneladas al año en todo el mundo. Entre más fuerte es su aroma, mejor calidad y más alto es su precio. Menos de medio kilo cuesta 2 mil dólares. Son muy apreciados, ya que siempre fueron asociados a la longevidad.</p>
 <p>3. Sandía Densuke Black. Es una fruta que crece en la isla japonesa Hokkaido y se producen apenas 10 mil unidades al año. Como su nombre lo dice, es una sandía negra porque su cáscara es de dicho color, sin rayas y muy gruesa; por dentro es de color rosa y tiene mucho jugo. Regalar una de estas frutas es muestra de respeto y, claro, de alto poder adquisitivo, ya que una sola cuesta alrededor de 250 dólares.</p>
