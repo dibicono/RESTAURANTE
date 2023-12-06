@@ -3,27 +3,27 @@ import Home from "../PAGINAS/Home";
 import Contacto from "../PAGINAS/Contacto";
 import Ubicacion from "../PAGINAS/Ubicacion";
 
-const PageNoFound = () =>   <h1>404: PageNoFound</h1>;
+const NoFound = () => <h1>404: PageNoFound</h1>;
 
-    function AppRouter() {
+function AppRouter() {
 
     return (
 
-    <>
-        <Routes>
-            <Route path="/" element={<Navigate to="/home" />} />;
-            <Route path="*" element={<Navigate to="404" />} />;
-            <Route path="404" element={<Navigate to="NotFound" />} />;
+        <>
+            <Routes>
+                <Route path="/" element={<Navigate to="/home" />} />
+                <Route path="*" element={<Navigate to="404" />} />
+                <Route path="404" element={<NotFound />} />
 
-            <Route path="Home" element={<Navigate to="Home" />} />;
-            <Route path="Contacto" element={<Navigate to="Contacto" />} />;
-            <Route path="Ubicacion" element={<Navigate to="Ubicacion" />} />;
+                <Route path="Home" element={<Navigate to="Home" />} />
+                <Route path="Contacto" element={<Navigate to="Contacto" />} />
+                <Route path="Ubicacion" element={<Navigate to="Ubicacion" />} />
 
-        </Routes>
+            </Routes>
 
-    </>
+        </>
     );
-  
+
 }
 
-    export default AppRouter;
+export default AppRouter;

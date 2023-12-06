@@ -2,6 +2,7 @@
 function Home () {
 
     return (
+    
         <div className="vh-100">
             <h1 className="text-center">BLOG</h1>
             <h2 className="text-center">LA COMIDA MAS SOFISTICADA</h2>
