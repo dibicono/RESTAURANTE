@@ -1,9 +1,9 @@
 import { Navigate, Route, Routes } from "react-router-dom";
-import Home from "../PAGINAS/Home";
-import Contacto from "../PAGINAS/Contacto";
-import Ubicacion from "../PAGINAS/Ubicacion";
+import Home from "../paginas/Home";
+import Contacto from "../paginas/Contacto";
+import Ubicacion from "../paginas/Ubicacion";
 
-const NoFound = () => <h1>404: PageNoFound</h1>;
+const NotFound = () => <h1>404: pagina no encontrada</h1>;
 
 function AppRouter() {
 
@@ -11,13 +11,13 @@ function AppRouter() {
 
         <>
             <Routes>
-                <Route path="/" element={<Navigate to="/home" />} />
-                <Route path="*" element={<Navigate to="404" />} />
+                <Route path="/" element={<Navigate to="/Home" />} />
+                <Route path="*" element={<Navigate to="/404" />} />
                 <Route path="404" element={<NotFound />} />
 
-                <Route path="Home" element={<Navigate to="Home" />} />
-                <Route path="Contacto" element={<Navigate to="Contacto" />} />
-                <Route path="Ubicacion" element={<Navigate to="Ubicacion" />} />
+                <Route path="Home" element={<Home />} />
+                <Route path="Contacto" element={<Contacto />} />
+                <Route path="Ubicacion" element={<Ubicacion />} />
 
             </Routes>
 
